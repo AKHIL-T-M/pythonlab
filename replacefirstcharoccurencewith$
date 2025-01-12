@@ -1,0 +1,7 @@
+list=input("Enter a string: ")
+def replace_char(list):
+    first_char=list[0]
+    remaining_char=list[1:].replace(first_char,'$')
+    anser=first_char+remaining_char
+    print(anser)
+replace_char(list)
